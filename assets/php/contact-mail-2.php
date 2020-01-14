@@ -19,7 +19,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "admin@devitems.com";
+        $recipient = "antonio@puntozip.com.mx";
 
         // Set the email subject.
         $subject = "New contact from $name";
@@ -27,7 +27,7 @@
         // Build the email content.
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Phone: $subject\n\n";
+        $email_content .= "Asunto: $subject\n\n";
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
